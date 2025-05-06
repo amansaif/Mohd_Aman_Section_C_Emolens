@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Emolens</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-image: url('background11.webp'); /* Use matching background from index.html */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff; /* White text color for better readability */
+            text-align: center;
+            line-height: 1.8;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+            z-index: 10;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .navbar .logo h1 {
+            font-size: 1.8rem;
+            margin: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        .navbar .links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navbar .links a:hover {
+            background-color: #ffffff; /* White background on hover */
+            color: #000; /* Black text on hover */
+        }
+        section {
+            margin-top: 100px; /* Space for the fixed navbar */
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent section background */
+            border-radius: 10px;
+            margin: 40px auto;
+            max-width: 600px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #ffffff;
+            letter-spacing: 1.5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        form input, form textarea {
+            padding: 15px;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+            color: #ffffff;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+        form input:focus, form textarea:focus {
+            border-color: #ffd700; /* Highlighted border on focus */
+        }
+        form button {
+            background: #4CAF50; /* Green button for better visibility */
+            color: #ffffff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        form button:hover {
+            background: #45A049; /* Darker green for hover effect */
+        }
+        footer {
+            padding: 20px;
+            background: #000;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffd700; /* Golden link color */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo4.png" alt="Logo"> <!-- Replace with your logo path -->
+            <h1>Emolens</h1>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <section>
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 <a href="index.html">Emolens</a>. All rights reserved.</p>
+    </footer>
+</body>
+</html>

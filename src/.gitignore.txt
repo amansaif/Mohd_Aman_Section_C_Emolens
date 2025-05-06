@@ -1,0 +1,22 @@
+# Ignore virtual environments
+myenv310/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs and uploads (if any)
+*.log
+uploads/
+
+# Model files (optional)
+*.h5
+*.pb
+myenv310/

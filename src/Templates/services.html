@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Emolens</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-image: url('background11.webp'); /* Matching background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff; /* White text for readability */
+            text-align: center;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+            z-index: 10;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .navbar .logo h1 {
+            font-size: 1.8rem;
+            margin: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        .navbar .links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        .navbar .links a:hover {
+            background-color: #ffffff; /* Hover background color white */
+            color: #000; /* Hover text color black */
+        }
+        section {
+            margin-top: 80px; /* Space for the fixed navbar */
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent section background */
+            border-radius: 10px;
+            margin: 40px auto;
+            max-width: 900px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+        }
+        section h2 {
+            font-size: 2.5rem;
+            color: #ffffff; /* Heading color in white */
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.2rem;
+            text-align: left;
+        }
+        ul li {
+            margin: 20px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow to the list item */
+            transition: transform 0.3s ease-in-out;
+        }
+        ul li:hover {
+            transform: scale(1.02); /* Slight zoom on hover */
+        }
+        ul li strong {
+            color: #ffd700; /* Golden color for service titles */
+            display: block;
+            margin-bottom: 10px;
+        }
+        ul li:before {
+            content: "⚡";
+            margin-right: 10px;
+            color: #ffd700; /* Golden symbol */
+        }
+        footer {
+            padding: 20px;
+            background-color: #000;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo4.png" alt="Logo"> <!-- Replace with your logo path -->
+            <h1>Emolens</h1>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>
+                <strong>Emotion Analysis for Images</strong>
+                Our platform can analyze emotions from images, providing detailed insights into the moods and feelings captured within a moment. This empowers educators to understand their students better and foster a more empathetic learning environment.
+            </li>
+            
+            <li>
+                <strong>Real-Time Emotion Detection</strong>
+                Track student engagement and emotional states in real time during online coaching or classes. Our real-time detection helps educators adapt their teaching methods, ensuring students remain engaged and supported.
+            </li>
+            
+            <li>
+                <strong>Comprehensive Emotional Insights</strong>
+                Dive deeper into emotional trends with detailed reports and analysis. Our AI-driven insights offer a clear understanding of emotional patterns, enabling educators to make data-driven decisions.
+            </li>
+            
+            <li>
+                <strong>Interactive Visualization Tools</strong>
+                Transform data into powerful visuals with our interactive tools. Teachers can easily interpret emotional data and refine their strategies for more effective learning experiences.
+            </li>
+            
+            <li>
+                <strong>Tailored Engagement Solutions</strong>
+                Emolens provides actionable recommendations to help educators improve student engagement. From adjusting lesson plans to refining interaction styles, our insights ensure every student gets the attention they need.
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 <a href="index.html">Emolens</a>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
